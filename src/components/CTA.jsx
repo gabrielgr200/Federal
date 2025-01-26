@@ -64,7 +64,7 @@ function CTA() {
   };
 
   return (
-    <motion.section initial='hidden' animate='visible' id="talk" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+    <motion.section initial='hidden' animate='visible' id="talk" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-dimBlueClear rounded-[20px] box-shadow`}>
       <div className="flex-1 flex flex-col">
         <motion.h2 variants={slideInFromLeft(0.8)} className={styles.heading2}>Antecipe seus recebíveis <br /> de forma rápida e segura!</motion.h2>
         <motion.p variants={slideInFromLeft(1)} className={`${styles.paragraph} max-w-[470px] mt-5`}>

@@ -7,13 +7,13 @@ import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
-    <motion.section initial='hidden' animate='visible' id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <motion.section initial='hidden' animate='visible' id="home" className={`flex md:flex-row flex-col bg-dimBlueClear ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-        <motion.div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+        <motion.div className="flex flex-row items-center py-[6px] px-4 bg-slate-200 rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-          <motion.p variants={slideInFromLeft(0.5)} className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Simples, rápido</span> e {" "}
-            <span className="text-white">100% seguro</span>
+          <motion.p variants={slideInFromLeft(0.5)} className={`${styles.paragraph1} ml-2`}>
+            <span className="text-black">Simples, rápido</span> e {" "}
+            <span className="text-black">100% seguro</span>
           </motion.p>
         </motion.div>
 

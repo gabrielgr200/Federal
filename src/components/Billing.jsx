@@ -15,10 +15,10 @@ const Billing = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <motion.h2 variants={slideInFromRight(1.2)} className={styles.heading2}>
+      <motion.h2 variants={slideInFromRight(1.2)} className={styles.heading3}>
         Use a antecipação como estratégia de negócio.
       </motion.h2>
-      <motion.p variants={slideInFromRight(1.4)} className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <motion.p variants={slideInFromRight(1.4)} className={`${styles.paragraph1} max-w-[470px] mt-5`}>
         A antecipação de recebíveis é estratégica para a empresa em todos os momentos, pois permite que ela mantenha seu caixa positivo e permaneça forte no mercado. Com o factoring você pode pagar suas contas em dia, equilibrar o fluxo de caixa, ganhar poder de negociação com fornecedores, investir na expansão da sua empresa e muitas outras vantagens.
       </motion.p>
     </div>

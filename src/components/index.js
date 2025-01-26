@@ -11,6 +11,7 @@ import Hero from "./Hero";
 
 export {
   Navbar,
+  Testimonials,
   Billing,
   CardDeal,
   Business,
@@ -18,6 +19,5 @@ export {
   CTA,
   Stats,
   Footer,
-  Testimonials,
   Hero,
 };
